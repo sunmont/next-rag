@@ -5,7 +5,7 @@ This project is a **Dockerized AI-powered Retrieval-Augmented Generation (RAG) A
 
 ## 🛠 Features
 - ✅ **Next.js-based AI RAG system**
-- ✅ **Vector database (DB) for efficient retrieval**
+- ✅ **Vector database (PGVector) for efficient retrieval**
 - ✅ **Chunk extraction from various document formats**
 - ✅ **Fully Dockerized for easy deployment**
 
@@ -14,3 +14,10 @@ This project is a **Dockerized AI-powered Retrieval-Augmented Generation (RAG) A
    ```bash
    docker compose up -d
    docker compose down -v (shutdown)
+
+## 🛣️ Roadmap
+- ✅ **Multiple vector database integrations (Elasticsearch, Infinity)**
+- ✅ **VUse the Quarkus-Tika Docker service to optimize chunk extraction for large documents**
+- ✅ **Add authentication & user management system**
+- ✅ **Enhance frontend UI for better user experience**
+   
