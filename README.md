@@ -11,7 +11,7 @@ This project is a **Dockerized AI-powered Retrieval-Augmented Generation (RAG) A
 
 ## 📦 Setup & Run
    Set Gemini API key ('GOOGLE_GENERATIVE_AI_API_KEY') for gemini-1.5-flash mode in .env file
-   ```bash
+   bash
    docker compose up -d
    docker compose down -v (shutdown)
 
